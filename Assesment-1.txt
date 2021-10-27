@@ -1,0 +1,23 @@
+1)Write a blog on Difference between HTTP1.1 vs HTTP2
+Answer: HTTP-1.1				
+1)The standardized protocol.
+2)Loading a data takes more time.
+3)HTTP-1.1 is used everywhere.New version has not launched officially.
+4)Syntax are seperated.
+
+HTTP-2
+1)A protocol for greater performance.
+2)It takes less time to load the data.
+3)Oficially its not in released still the process is not completed.
+4)Server push method is added.
+
+2)Write a blog about objects and its internal representation in Javascript.
+Ans: Object is nothing but a collection of key value. An object can be access using .operator
+var obj={
+	username:"guvi"
+	password:123,
+	attendence:["Mon","Tue","Wed"]
+	gender:"Male"
+};
+obj.address="chennai"=>(To add additional information)
+console.log(obj); =>(To print the program)
