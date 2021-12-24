@@ -6,7 +6,7 @@ request.onload = function(){
 console.log(data);
 for(var i=0;i<data.length;i++){
 if(data[i].country[0].name=='flag'){
-    console.log(country[i].flag);
+    console.log(country[i].name,region[i].data,sub-region[i].data,population[i].data);
 }
 }
 }

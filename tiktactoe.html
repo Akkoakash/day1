@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var board = document.createElement('div');
+        board.style.height= "300px";
+        board.style.width= "300px";
+        board.style.display="flex";
+        board.style.flexDirection = "row";
+        board.style.flexWrap = "wrap";
+        for(let index = 1; index < 9; index++) {
+        var board = document.createElement('div');
+        box.style.height = "100px";
+        box.style.width = "32px";
+        box.style.marginRight = "2px";
+        box.style.border = "1px solid grey"
+        box.style.backgroundColor = "#ffdea6";
+        box.addEventListener('click',function(){
+            alert(index)
+        })
+        board.appendChild(box);
+        }
+        document.body.appendChild(board)
+    </script>
+</body>
+</html> 

@@ -1,0 +1,28 @@
+1)List 5 difference between Browser JS(console) v Nodejs
+Ans)Nodejs:-
+a)Node does not have a predefined window.
+b)object is related to a particular url. So node doesn’t require that.
+c)Node does not have document object also it never have to render anything in a page.
+d)Node has global, which is a predefined global object. It contains several functions that are not available in browsers they are needed for server side works only.
+e)Require object is predefined in Node.
+Browser JS:-
+a)window is a predefined global object which has functions and attributes.
+b)location is another predefined object in browsers, that has all the information about the url we have loaded.
+c)Document is also another predefined global variable in browsers, has the html which is rendered.
+d)Browsers may have an object named global but it will be the exact one as window.
+e)Browsers don’t have require predefined. You may include it in your app for asynchronous file loading.
+
+4)Execute the below code and write your description in txt file
+typeof(1)
+typeof(1.1)
+typeof('1.1')
+typeof(true)=>Finds the statement True or false
+typeof(null)=>object
+typeof(undefined)=>undefined
+typeof([])
+typeof({})
+typeof(NaN)=>Not a Number
+
+5)what is prototype?
+Ans)A prototype is used to evaluate a new design to improve the accuracy of analysts and system users. It is the step between the formalization and the evaluation of an idea. The purpose of a prototype is to have a tangible model of the solutions to the problems already defined and discussed by the designers during the concept/idea stage.
+
